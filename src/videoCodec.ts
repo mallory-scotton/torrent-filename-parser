@@ -35,7 +35,7 @@ export const enum VideoCodec {
 
 /**
  * Retreive the video codec from the title
- * @param title - The title containing the video codec information
+ * @param {string} title - The title containing the video codec information
  * @returns An object containing optional 'codec' and 'source' if a codec
  * is found.
  */

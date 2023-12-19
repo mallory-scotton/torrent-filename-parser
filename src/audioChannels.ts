@@ -22,7 +22,7 @@ export const enum Channel {
 
 /**
  * Retreive the audio channel from the title
- * @param title - The title containing the audio channel information
+ * @param {string} title - The title containing the audio channel information
  * @returns An object containing optional 'channels' and 'source' if a channel
  * is found.
  */

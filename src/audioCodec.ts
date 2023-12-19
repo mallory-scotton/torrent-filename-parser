@@ -51,7 +51,7 @@ export const enum AudioCodec {
 
 /**
  * Retreive the audio codec from the title
- * @param title - The title containing the audio codec information
+ * @param {string} title - The title containing the audio codec information
  * @returns An object containing optional 'codec' and 'source' if a codec
  * is found.
  */
